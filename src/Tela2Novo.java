@@ -116,16 +116,16 @@ public class Tela2Novo extends javax.swing.JFrame {
         // TODO add your handling code here:
         
        if (jRadioButton1.isSelected()) {
-       tela3.setVisible(true);
+       new Tela3Novo().setVisible(true);
        dispose();
     }
          else if(jRadioButton2.isSelected()){
-        tela6.setVisible(true);
+        new Tela6Novo().setVisible(true);
         dispose();
          }
          else if(jRadioButton3.isSelected()){
-        tela8.setVisible(true);
-       dispose();
+        new Tela8Novo().setVisible(true);
+        dispose();
     }
     }//GEN-LAST:event_jButton4ActionPerformed
 

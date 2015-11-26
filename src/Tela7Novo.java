@@ -103,7 +103,7 @@ public class Tela7Novo extends javax.swing.JFrame {
          
          }else if(jRadioButton2.isSelected()){
          new Tela2Novo().setVisible(true);
-         
+         dispose();
          }
     }//GEN-LAST:event_jButton1ActionPerformed
 
