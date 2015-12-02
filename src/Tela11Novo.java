@@ -31,9 +31,12 @@ public class Tela11Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
         jTextArea1.setText("Voce resolve ligar para o novamente…\nE tenta…\nE tenta…\nE finalmente consegue.\n\n- Gabinete do chefe de policia,boa tarde.\n\nE descobre que o responsável do crime  esteve mais perto que pensava.");
@@ -64,8 +67,8 @@ public class Tela11Novo extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 92, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addContainerGap())
         );

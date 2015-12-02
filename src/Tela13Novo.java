@@ -31,9 +31,13 @@ public class Tela13Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
         jTextArea1.setText("John descarrega todo seu odio e raiva, e assassina friamente o chefe de policia. Ele não ve outra saida e acaba fugindo do país. Vai para uma ilha no caribe onde se estabiliza e trabalhar como segurança, sentindo-se livre e vingado.");

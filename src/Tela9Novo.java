@@ -33,17 +33,23 @@ public class Tela9Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Apos ir ao endereço e encontrar o ladrão, você leva ele para a delegacia e começa a interrogar ele.\n\nEle realmente confessa o crime,mas foi a mando de uma outra pessoa,que não a conhece, mas que manteve contato por telefone e forneceu a arma do crime, que jogou fora em um matagal próximo ao seu apartamento.\n\n                 Agora que tem mais provas, o que você fara agora");
+        jTextArea1.setText("Apos ir ao endereço e encontrar o ladrão, você leva ele para a delegacia e começa a interrogar ele.\n\nEle realmente confessa o crime,mas foi a mando de uma outra pessoa,que não a conhece, mas que manteve contato por telefone e forneceu a arma do crime, que jogou fora em um matagal próximo ao seu apartamento.\n\n          Agora que tem mais provas, o que você fara agora?");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jRadioButton1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton1.setText("Ligar para o número novamente");
 
+        jRadioButton2.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton2.setText("Ir atrás da arma do crime");
 
         jButton1.setText("Continuar");
@@ -58,31 +64,27 @@ public class Tela9Novo extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jRadioButton2)
-                            .addComponent(jRadioButton1))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap(414, Short.MAX_VALUE)
+                .addComponent(jButton1)
                 .addContainerGap())
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 507, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jRadioButton2)
+                    .addComponent(jRadioButton1))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(8, 8, 8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jRadioButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jRadioButton2)
-                        .addContainerGap(46, Short.MAX_VALUE))
+                        .addContainerGap(58, Short.MAX_VALUE))
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton1)

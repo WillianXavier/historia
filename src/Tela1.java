@@ -33,13 +33,20 @@ public class Tela1 extends javax.swing.JInternalFrame {
         jTextPane1 = new javax.swing.JTextPane();
         jButton1 = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(200, 200, 200));
+        setResizable(true);
+        setAlignmentX(100.0F);
+        setAlignmentY(350.0F);
+        setAutoscrolls(true);
         addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 formKeyPressed(evt);
             }
         });
 
-        jTextPane1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jTextPane1.setEditable(false);
+        jTextPane1.setBackground(new java.awt.Color(203, 203, 203));
+        jTextPane1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextPane1.setText("Jonh March, um policial honesto de Chicago, tem sua vida totalmente destruida com o assasinato de sua esposa e filha, que tanto ama. Agora ele busca vingança, tentando encontrar os culpados.Você deve ajudar ele, indicando a ele o caminho que deve seguir para encontrar os verdadeiros culpados\nJohn criou vários amigos na policia, mas também muitos inimigos. Ele já tem em mente três possíveis suspeitos: Duas são poderosas máfias locais, que ficam em guerra o tempo todo, e o terceiro, é dentro da própria policia, onde a corrupção impera nas mais altas patentes.\n");
         jScrollPane1.setViewportView(jTextPane1);
 
@@ -54,7 +61,7 @@ public class Tela1 extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 303, Short.MAX_VALUE)
+                        .addGap(0, 414, Short.MAX_VALUE)
                         .addComponent(jButton1)))
                 .addContainerGap())
         );
@@ -62,10 +69,10 @@ public class Tela1 extends javax.swing.JInternalFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(37, 37, 37))
         );
 
         pack();

@@ -29,9 +29,13 @@ public class Tela3Novo extends javax.swing.JFrame {
         jToggleButton1 = new javax.swing.JToggleButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
         jTextArea1.setText("Jonh chega na pizzaria, que é controlada pela uma das mafias locais, quase sempre vazia, pois é somente fachada para lavar dinheiro, somente estava um atendente e vários seguranças.John pergunta se alguém estranho esteve por esses dias ali, ele disse que não via ninguém de estranho por ali.\nAo sair, os seguranças foram ao seu encalco e o surpreenderam, atacando e matando-o na rua .");
@@ -58,9 +62,8 @@ public class Tela3Novo extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
                 .addComponent(jToggleButton1)
                 .addContainerGap())
         );

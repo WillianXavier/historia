@@ -31,12 +31,17 @@ public class Tela14Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Voce o deixa ir pos sabe que um dia todos no final\nteram o que realmente merecem e iram colher o que plantarem. Você não ve outra saida apos ter matado os outros policiais que o atacaram na chegada e acaba por fugir do país. Para uma ilha no caribe onde trabalhar como segurança, E apos alguns meses voce tem a noticia de que o chefe de policia foi assassinado\npor mafiosos.");
+        jTextArea1.setText("Voce o deixa ir pos sabe que um dia todos no final teram o que realmente merecem e iram colher o que plantarem. Você não ve outra saida apos ter matado os outros policiais que o atacaram na chegada e acaba por fugir do país. Para uma ilha no caribe onde trabalhar como segurança, E apos alguns meses voce tem a noticia de que o chefe de policia foi assassinado por mafiosos.");
+        jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
         jButton1.setText("Continuar");

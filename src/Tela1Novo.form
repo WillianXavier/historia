@@ -3,6 +3,12 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="c8" green="c8" red="c8" type="rgb"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[507, 316]"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -24,24 +30,18 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="307" max="32767" attributes="0"/>
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
+              <EmptySpace pref="319" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
+          <Component id="jScrollPane1" alignment="0" pref="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="244" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="226" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
           </Group>
@@ -59,10 +59,13 @@
         <Component class="javax.swing.JTextPane" name="jTextPane1">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="14" style="0"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ca" green="ca" red="ca" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Jonh March, um policial honesto de Chicago, tem sua vida totalmente destruida com o assasinato de sua esposa e filha, que tanto ama. Agora ele busca vingan&#xe7;a, tentando encontrar os culpados.Voc&#xea; deve ajudar ele, indicando a ele o caminho que deve seguir para encontrar os verdadeiros culpados&#xa;John criou v&#xe1;rios amigos na policia, mas tamb&#xe9;m muitos inimigos. Ele j&#xe1; tem em mente tr&#xea;s poss&#xed;veis suspeitos: Duas s&#xe3;o poderosas m&#xe1;fias locais, que ficam em guerra o tempo todo, e o terceiro, &#xe9; dentro da pr&#xf3;pria policia, onde a corrup&#xe7;&#xe3;o impera nas mais altas patentes.&#xa;"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="DejaVu Serif" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jonh March, um policial honesto de Chicago, tem sua vida totalmente destruida com o assasinato de sua esposa e filha, que tanto ama. Agora ele busca vingan&#xe7;a, tentando encontrar os culpados.Voc&#xea; deve ajudar ele, indicando a ele o caminho que deve seguir para encontrar os verdadeiros culpados&#xa;John criou v&#xe1;rios amigos na policia, mas tamb&#xe9;m muitos inimigos.&#xa;Ele j&#xe1; tem em mente tr&#xea;s poss&#xed;veis suspeitos: Duas s&#xe3;o poderosas m&#xe1;fias locais, que ficam em guerra o tempo todo, e o terceiro, &#xe9; dentro da pr&#xf3;pria policia, onde a corrup&#xe7;&#xe3;o impera nas mais altas patentes.&#xa;"/>
           </Properties>
         </Component>
       </SubComponents>

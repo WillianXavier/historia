@@ -32,15 +32,20 @@ public class Tela10Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(203, 203, 203));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Voce vai no matagal indicado pelo criminoso e encontra a arma, mas o nota que a numeração esta raspada, impossibilitando a indentificação,\n\n\n                                Agora, qual sera sua próxima escolha");
+        jTextArea1.setText("Voce vai no matagal indicado pelo criminoso e encontra a arma, mas o nota que a numeração esta raspada, impossibilitando a indentificação.\n\n\n      Agora, qual sera sua próxima escolha?");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jRadioButton1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton1.setText("Ligar para o número novamente");
 
         jButton1.setText("Continuar");
@@ -58,12 +63,12 @@ public class Tela10Novo extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jRadioButton1)
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton1)))
+                        .addComponent(jButton1))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jRadioButton1)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -71,9 +76,9 @@ public class Tela10Novo extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
+                .addGap(32, 32, 32)
                 .addComponent(jRadioButton1)
-                .addGap(42, 42, 42)
+                .addGap(28, 28, 28)
                 .addComponent(jButton1)
                 .addContainerGap())
         );

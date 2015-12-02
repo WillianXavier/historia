@@ -34,17 +34,22 @@ public class Tela12Novo extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(517, 316));
 
         jTextArea1.setEditable(false);
+        jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
         jTextArea1.setText("Jonh vai no gabinete do chefe de policia, vários policiais corruptos o esperam,ele  acaba com todos e fica frente a frente com o cara que mandou matar sua família.\nEle conta que foi motivo de vingança, já que tempos atras, ele prendeu um carregamento de droga que era para ele e sua gangue.\nEle fala confiante, pois sabe que vai se safar, e que os juizes da cidade estao ao seu lado.\n\n                    Agora john tem tres escolhas dificeis pela frente.");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jRadioButton1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton1.setText("Matar o chefe de polícia friamente");
 
+        jRadioButton2.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton2.setText("Deixar ele fugir, pois nada irá trazer sua família de volta");
         jRadioButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,6 +57,7 @@ public class Tela12Novo extends javax.swing.JFrame {
             }
         });
 
+        jRadioButton3.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton3.setText("Prender ele e levar a justiça");
 
         jButton1.setText("Continuar");
@@ -75,25 +81,23 @@ public class Tela12Novo extends javax.swing.JFrame {
                         .addComponent(jButton1))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jRadioButton1)
-                            .addComponent(jRadioButton2))
-                        .addGap(0, 91, Short.MAX_VALUE)))
+                            .addComponent(jRadioButton2)
+                            .addComponent(jRadioButton1))
+                        .addGap(0, 20, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 233, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jRadioButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jRadioButton2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jRadioButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addContainerGap())
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1)
+                    .addComponent(jRadioButton3)))
         );
 
         pack();

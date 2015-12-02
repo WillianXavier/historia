@@ -30,6 +30,8 @@ public class TelaFim extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(200, 200, 200));
+        setPreferredSize(new java.awt.Dimension(507, 316));
 
         jButton1.setText("Fim");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -40,7 +42,9 @@ public class TelaFim extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/12.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
-        jLabel2.setMaximumSize(new java.awt.Dimension(800, 600));
+        jLabel2.setMaximumSize(new java.awt.Dimension(507, 316));
+        jLabel2.setMinimumSize(new java.awt.Dimension(507, 316));
+        jLabel2.setPreferredSize(new java.awt.Dimension(507, 316));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
