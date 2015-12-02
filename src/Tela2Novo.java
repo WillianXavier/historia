@@ -28,6 +28,7 @@ public class Tela2Novo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jRadioButton1 = new javax.swing.JRadioButton();
@@ -36,7 +37,7 @@ public class Tela2Novo extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(507, 316));
+        setPreferredSize(new java.awt.Dimension(507, 320));
 
         jTextArea1.setEditable(false);
         jTextArea1.setBackground(new java.awt.Color(202, 202, 202));
@@ -50,6 +51,7 @@ public class Tela2Novo extends javax.swing.JFrame {
         jTextArea1.setAlignmentX(0.8F);
         jScrollPane1.setViewportView(jTextArea1);
 
+        buttonGroup1.add(jRadioButton1);
         jRadioButton1.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton1.setText("Irá à pizzaria em busca de  informações");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -58,9 +60,11 @@ public class Tela2Novo extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(jRadioButton2);
         jRadioButton2.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton2.setText("Ligar para o numero que encontrou");
 
+        buttonGroup1.add(jRadioButton3);
         jRadioButton3.setFont(new java.awt.Font("DejaVu Serif", 1, 14)); // NOI18N
         jRadioButton3.setText("Levar a mecha de cabelo para analise");
 
@@ -166,6 +170,7 @@ public class Tela2Novo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private static javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton4;
     private javax.swing.JRadioButton jRadioButton1;
     private javax.swing.JRadioButton jRadioButton2;
